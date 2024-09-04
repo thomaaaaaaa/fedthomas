@@ -56,7 +56,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  - Hij leest meteen alles voor van de hele site, duurt eventjes.... is dat de bedoeling? want heel veel van deze informatie is niet interessant voor alle gebruikers!
+  - Kleurtjes worden goed uitgesproken, maar niet heel specifiek: heel licht grijs-lila wordt gewoon "paars" genoemd
+  - Sommige dingetjes zijn heel visuel, maar worden voorgelezen als een eigenlijk lopende tekst. hierdoor ontbreekt de context compleet en worden er vrij random dingen gezegd.
+  - De verteller skipt sommige dingen? als ik probeer te navigeren dan slaat hij sommige dingen over.....
 
 </details>
 
