@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.hema.nl/
+  https://www.kaas.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="hema-home.jpg" width="375px" alt="De homepagina van Hema.nl">
+  Kaas.nl - Home  
+  <img src="kaasnl-home.jpg" width="375px" alt="De homepagina van Kaas.nl">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="hema-baby.jpg" width="375px" alt="De pagina voor babyspullen">
+  Kaas.nl - Kaaswizard  
+  <img src="kaaswizard.jpg" width="375px" alt="De pagina waarop je zelf een Kaasprofiel kan aanmaken.">
  
 </details>
 
