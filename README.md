@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Kaas.nl - Home  
-  <img src="kaasnl-home.jpg" width="375px" alt="De homepagina van Kaas.nl">
+  <img src="images/kaasnl-home.png" width="375px" alt="De homepagina van Kaas.nl">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Kaas.nl - Kaaswizard  
-  <img src="kaaswizard.jpg" width="375px" alt="De pagina waarop je zelf een Kaasprofiel kan aanmaken.">
+  <img src="images/kaaswizard.png" width="375px" alt="De pagina waarop je zelf een Kaasprofiel kan aanmaken.">
  
 </details>
 
