@@ -152,10 +152,32 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+De vormen op mijn site:
+- CSS kan vectoren doen, een divje met border radius!
+- Footer heeft backbround, die een border radius
+
+Caroussel
+- Een divje met overflow! hoeft niet per se infinite te zijn. interacties zijn wel heel goed om te hebben!
+- Kijk voor caroussel op https://css-tricks.com/css-only-carousel/ Geeneens Java voor nodig! Heel veel staat in css tricks, denk om snappen, groeien, etc... De puntjes die meeveranderen zijn... css? java? ff kieken!
+- De bolletjes eronder/progressiebalk: javascript!
+- Let eerst op css tricks, dan pas kleine details!
+
+Maak het niet te ingewikkeld:
+- Blijf zo dicht mogelijk bij de echte site waar het niet echt nodig is om dingen anders te doen, anders is het alleen maar extra werk.
+- Doe alles wat kan met sections en articles, alleen div bij vormgeving bijvoorbeeld binnen een article verschillende groepjes! divjes zijn alleen voor technische kant, niet voor de structuur: daar zijn die andere dingies voor.
+- Gbruik zo veel mogelijk selectoren, niet classes!!
+
+
+Als je bij de inspector bij de sources kijkt (of bij internet en gedownload) kan je met heel weinig moeite alle afbeeldingen bij elkaar vinden!!
+
+Aria atribuut: zeggen wat voor ding iets is, voor de screenreader! hoeft niet per se hier, maar het is wel een mogelijk focuspuntje
+Hamburgermenu is een unordered list in de Nav!
+
+Wat nu?
+In de surface plane dingen toevoegen: 
+- loopend dingetje knopje
+- golfjes onderin
+- aria attributen
 
 </details>
 
