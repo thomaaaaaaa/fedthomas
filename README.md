@@ -110,10 +110,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Thomas     | Braham         | student 3    | student 4        |
+  | Thomas     | Braham         | Aya    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | Hoe maken we vormen? Met vector of images?  | Hoe zit een Carroussel in elkaar?             | en ik dit    | en dan ik dat    |
-  | Hoe maak je een progressiebalk bij een carroussel? | Hoe maak je een hamburgermenu met animatie zonder images te gebruiken? | nog een punt | dit wil ik zeker |
+  | Hoe maken we vormen? Met vector of images?  | Hoe zit een Carroussel in elkaar?             | Kloppen onze breakdownschetsen?    | en dan ik dat    |
+  | Hoe maak je een progressiebalk bij een carroussel? | Hoe maak je een hamburgermenu met animatie zonder images te gebruiken? | Waar precies moet je div gebruiken en waar een class? | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
