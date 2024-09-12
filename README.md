@@ -71,13 +71,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="images/kaasnl-home-analyse.png" width="375px" alt="Breakdown van de hele homepagina">
+  <img src="images/kaaswizard-analyse.png" width="375px" alt="Breakdown van de hele Kaaswizard">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -91,7 +92,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het lastigste was vooral de oefeningen in de les: het opfrissen van informatie en vaardigheden die ik eigenlijk was kwijtgeraakt na een tijdje, maar daarom was het juist zo goed om alle oefeingen te doen! Ik kwam niet altijd overal meteen uit, maar ik kon altijd hulp krijgen van de begeleiders of mijn klasgenoten. 
+  
+  Het maken van de site zelf gaat tot nu toe erg vlot en gemakkelijk, maar misschien is dat omdat ik vooral met HTML bezig ben geweest...
+
+  Tot nu toe ben ik hier met mijn site:
+    1. Kale HTML met tekst
+    2. HTML met een beetje typografie
+
+  De volgende stappen zijn nu:
+    3. HTML met typografie en afbeeldingen
+    4. HTML met typografie, afbeeldingen, en positionering
+    5. HTML met typografie, afbeeldingen, positionering en kleur
+    6. HTML met typografie, afbeeldingen, positionering, kleur en interactiviteit
 
 
   ### Agenda voor meeting
