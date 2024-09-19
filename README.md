@@ -149,6 +149,7 @@ In de surface plane dingen toevoegen:
 - loopend dingetje knopje
 - golfjes onderin
 - aria attributen
+- cookies popup
 
 </details>
 
