@@ -1,0 +1,252 @@
+/*/////////////////////ALGEMEEN///////////////////*/
+
+:root {
+    --kaas-geel: rgb(255, 174, 0);
+    --lichte-tekst: white;
+    --donkere-tekst: black;
+    width: 100%;
+    height: 100%;
+  }
+  
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+/*/////////////////////TYPOGRAFIE///////////////////*/
+
+h1, h2, h3, p, a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 540;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 350;
+}
+
+strong {
+    color: var(--kaas-geel);
+    font-weight: 540;
+}
+
+/*/////////////////////STRUCTUUR///////////////////*/
+main{
+    background-color: var(--lichte-tekst)
+}
+
+header, footer {
+    background-color: var(--kaas-geel);
+    color: var(--lichte-tekst)
+}
+
+body{
+    background-color: var(--lichte-tekst)
+}
+/*/////////////////////HEADER///////////////////*/
+header{
+    border-bottom: 0.15em solid var(--lichte-tekst);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+nav a img {
+    max-height: 3em;
+    position: relative;
+    }
+
+nav a:nth-of-type(2) img{
+    max-height: 1.7em;
+    margin-bottom: 0%;
+    left: 30%;
+    margin-top: 7%;
+}
+
+nav a:nth-of-type(3){
+    position: relative;
+    right: -10%;
+}  
+nav a:nth-of-type(4){
+    position: relative;
+    right: 0;
+}   
+
+
+
+/*//////////////////////////////////////////////////INDEX/////////////////////////////////////////////*/
+main a{
+    background-color: var(--lichte-tekst);
+    padding: 2%;
+    border-radius: 4em;
+    color: var(--kaas-geel);
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-content: center;
+}
+
+main img{
+    max-width: 100%;
+}
+
+/*/////////////////////KOPSTUKJE///////////////////*/
+.index section:nth-of-type(1){
+    background-color: var(--kaas-geel);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    position: relative;
+}
+
+.index section:nth-of-type(1) a{
+    background-color: var(--lichte-tekst);
+    padding: 2%;
+    border-radius: 4em;
+    color: var(--kaas-geel);
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-content: center;
+}
+
+.index section:nth-of-type(1) img{
+    position: relative;
+    right: 2em;
+    top: 2em;
+    border-top-right-radius: 8em;
+    max-height: 19em;
+    object-fit: cover;
+    }
+
+.index h1{
+    position: relative;
+    top: 1em;
+}
+
+.index section:nth-of-type(1) a{
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 7%;
+   }
+
+.index section:nth-of-type(2){
+    display: flex;
+    background-color: grey;
+    overflow: auto;
+}
+
+.index section:nth-of-type(3){
+    display: flex;
+    background-color: grey;
+    overflow: auto;
+}
+
+.index section:nth-of-type(4){
+    display: flex;
+    background-color: grey;
+    overflow: auto;
+}
+
+.index section:nth-of-type(5){
+    display: flex;
+    background-color: grey;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+h1{
+    margin-top: 14.5em;
+}
+
+main a{
+    background-color: var(--lichte-tekst);
+    padding: 2%;
+    border-radius: 4em;
+    color: var(--kaas-geel);
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-content: center;
+}
+
+main img{
+    max-width: 100%;
+}
+
+.index section:nth-of-type(1){
+    background-color: var(--kaas-geel);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-height: 50em;
+    object-fit: cover;
+}
+
+
+
+.index section:nth-of-type(1) a{
+ width: 50%;
+ margin-left: 20%;
+ margin-bottom: 7%;
+}
+
+.index section:nth-of-type(1) p{
+    margin-top: -5%;
+    margin-left: 5%;
+    margin-right: 5%;
+   }
+
+   
+.index section:nth-of-type(1) img{
+position: relative;
+right: 2em;
+top: 5;
+border-top-right-radius: 8em;
+max-height: 19em;
+object-fit: cover;
+}
+
+section:nth-of-type(1)>div:nth-of-type(1)>img{
+position: relative;
+} */
