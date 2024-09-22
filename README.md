@@ -150,6 +150,7 @@ In de surface plane dingen toevoegen:
 - golfjes onderin
 - aria attributen
 - cookies popup
+- veranderende header
 
 </details>
 
