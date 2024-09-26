@@ -167,6 +167,14 @@ In de surface plane dingen toevoegen:
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
+mijn surface level dingetjes:
+- loopend dingetje knopje
+- golfjes onderin
+- aria attributen
+- cookie popup
+- veranderende header als je scrollt
+- soorten carousellen (krimpen en groeien etc)
+
   ### Agenda voor meeting
   samen met je groepje opstellen
 
@@ -177,8 +185,34 @@ In de surface plane dingen toevoegen:
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Tijdens de meeting kreeg ik antwoord op een aantal van mijn vragen.
 
+  Hoe kan ik het best die gradients doen van de afbeeldingen?
+    Gebruik "background-image:linear-gradient( rgb(0 0 0 / 0), rgba(0 0 0 / 1) );" (zie sommetje positioneren)
+    Of, met element ::after na de banner, met content:"" en een background met een gradient
+
+  Hoe belangrijk is het dat de carrousellen er hetzelfde uitzien als op de site?
+    Niet enorm: bij de fancy gele caroussel bijvoorbeeld het groeien en krimpen zijn niet heel belangrijk maar wel ingewikkeld! Verlies er niet te veel tijd aan. Maar bij de anderen: hoeft niet 100% nauwkeurig, maar als iets makkelijk mee te pakken is, doe het vooral! Kijk in teams, daar staat een handig linkje voor de carrousels. vergeet ook niet de css tricks pagina erover!
+
+  Hoe belangrijk is het gridden van mijn site?
+    ENORM! De site is helemaal broken op rescalability. Layout is enorm belangrijk in de beoordeling: met grid en flexbox, zorg dat alles er nog steeds prima uitziet als je het venster van maat verandert. Probeer met het venster te herschalen, kijk wat er breekt, en zorg dat dat prima meeschaalt!
+
+  Hoe maak ik het golfvormpje onderaan mijn site?
+     Het kan het best met svg'tje en dan een 'clip path', dat is vrij ingewikkeld en telt als extra surface level punt.
+  
+  We besproken wat ik nu nog moet doen en stelden een lijstje op:
+    1.   Het afmaken van de content en carrouselletjes
+    2.   Het fixen van de rescalability
+    3.   Het toevoegen van de microinteractie:
+              - Hamburgermenu
+    4.   Het toevoegen van de surface level dingies
+              	- Golfje met clip path
+	              - Zoekknopje
+	              - Loopend dingie
+	              - Header verandert
+              	- Extra focus op toegankelijkheid (aria)
+
+  Dat moet wel lukken!
 </details>
 
 
