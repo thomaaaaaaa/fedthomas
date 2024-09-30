@@ -56,10 +56,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  - Hij leest meteen alles voor van de hele site, duurt eventjes.... is dat de bedoeling? want heel veel van deze informatie is niet interessant voor alle gebruikers!
-  - Kleurtjes worden goed uitgesproken, maar niet heel specifiek: heel licht grijs-lila wordt gewoon "paars" genoemd
-  - Sommige dingetjes zijn heel visuel, maar worden voorgelezen als een eigenlijk lopende tekst. hierdoor ontbreekt de context compleet en worden er vrij random dingen gezegd.
-  - De verteller skipt sommige dingen? als ik probeer te navigeren dan slaat hij sommige dingen over.....
+  - Sommige dingen zijn eigeinlijk niet te zien op de echte site, maar worden wel voorgelezen! Staan er eigenlijk nog als foutje, maar blinde gebruikers krijgen alles mee.
+  - De carrouselletjes worden goed voorgelezen! Eerst kon ik er niet echt lekker doorheen navigeren, maar ik deed het verkeerd: toen ik eenmaal op de juiste toetsen drukte, lukte alles perfect.
+  - Wel vervelend is: hij leest meteen alle carrouselitems toe! Dat zijn er een hele hoop, dus gaat dat wel even duren. Opzich niet fout, maar wel hinderend voor gebruikers denk ik!
+  - de site zit qua accessibility goed in elkaar en is prima te navigeren met de screenreader, maar sommige dingetjes zijn toch niet helemaal handig.
 
 </details>
 
@@ -73,12 +73,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img src="images/kaasnl-home-analyse.png" width="375px" alt="Breakdown van de hele homepagina">
   <img src="images/kaaswizard-analyse.png" width="375px" alt="Breakdown van de hele Kaaswizard">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -185,7 +179,10 @@ mijn surface level dingetjes:
 
 
   ### Verslag van meeting
+Tijdens dit gesprek met de studentassistenten heb ik een aantal handige tips gekregen om verder te werken. Vooral belangrijk is dat we er achter kwamen dat de deadline al om de hoek is! Spannend......
 
+Op een aantal technische dingen werden we gewezen op handige hulpbronnen en technieken, die we zeker gaan toepassen.
+Er is nog veel te doen, maar we hebben de tijd! ...hoop ik.
 </details>
 
 
@@ -198,7 +195,7 @@ mijn surface level dingetjes:
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Mijn website is tot nog toe nog niet zo toegankelijk als ik had gewild omdat ik nog niet ben toegekomen aan het toevoegen van alt-attributen of aria-labels zoals ik van plan was. Ik zal de test  uitvoeren als ik deze dingen eenmaal heb toegevoegd.				
 
 </details>
 
@@ -270,15 +267,17 @@ mijn surface level dingetjes:
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Wat goed ging is dat ik de site bijna 1 op 1 heb nagemaakt. Ik kon na een tijdje zelf geen onderscheid meer maken tussen de echte en de mijne: dat vond ik heel leuk, en daar ben ik trots op!
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/kaasvskaas.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Omdat ik het voor de deadline eerst een aantal dagen heel druk had met het vak Vormgeving 2, met een deadline net iets voor deze, had ik uiteindelijk erg kort de tijd over om mijn opdracht af te maken. Dat, gecombineerd met dat ik heel uitgeput ben en ziek begin te worden, en mijn externe monitor (waar ik best afhankelijk van geworden ben tijdens het coderen) stuk is gegaan, had ik enorme moeite om alles op tijd af te krijgen en is dat dus niet gelukt.
+  
+  Wat mij ook niet goed lukte, is het positioneren op de juiste manier: ik heb heel veel met margins gedaan, met de bedoeling om het later aan te passen en het op de juiste manier te doen, maar daar had ik dus geen tijd meer voor.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Maar, ik heb hoop dat het toch nog gaat lukken! Ik weet precies wat er moet gebeuren, en met genoeg tijd weet ik zeker dat ik alles goed kan maken bij de herkansing.
 </details>
 
 
@@ -288,14 +287,11 @@ mijn surface level dingetjes:
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
-
+1. https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties 
+2. https://developer.mozilla.org/en-US/docs/Web/CSS/Next-sibling_combinator
+3. https://developer.mozilla.org/en-US/docs/Web/CSS/filter 
+4. https://codepen.io/teerapuch/pen/vLJXeR
+5. https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+6. https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path 
+7. https://developer.mozilla.org/en-US/docs/Web/CSS/display
 </details>
