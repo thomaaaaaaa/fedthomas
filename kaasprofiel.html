@@ -3,102 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaas.nl</title>
+    <title>Cheese Wizard - Kaas.nl</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
-<body >
-    <header>
+<body>
+    <header class="profielheader">
         <nav>
-            <a href="#"><img src="images/menu_burger_wit.png" alt="."></a>
-            <a href="index.html"><img src="images/menu_logo_wit.png" alt="."></a>
-            <a href="#"><img src="images/menu_account_wit.png" alt="."></a>
-            <a href="#"><img src="images/menu_zoek_wit.png" alt="."></a>
+            <a href="index.html"><img src="images/menu_logo_wit.png" alt="Het logo van Kaas.nl"></a>
         </nav>
     </header>
     <main class="profiel">
-        <h1>Creëer je eigen kaas smaakprofiel</h1>
-        <p>Op basis van vragen samengesteld door onze kaas experts stellen wij jouw persoonlijke smaakprofiel samen.</p>
-        <button>Maak je eigen profiel</button>
-        <h2>Next level kaasbeleving</h2>
-        <p>Ontdek de wereld van kaas met jouw persoonlijke smaakprofiel. Verrijk je kennis en ontdek nieuwe kazen, recepten en inspiratie.</p>
-        <section>
+        <section class="smaakbanner">
+            <h1>Creëer je eigen kaas smaakprofiel</h1>
+            <p>Op basis van vragen samengesteld door onze kaasexperts stellen wij jouw persoonlijke smaakprofiel samen.</p>
+            <a>Maak je eigen profiel</a>
+        </section>
+        <section class="kaasbeleving">
+            <h2>Next level kaasbeleving</h2>
+            <p>Ontdek de wereld van kaas met jouw persoonlijke smaakprofiel. Verrijk je kennis en ontdek nieuwe kazen, recepten en inspiratie.</p>
+        </section>
+        <section class="gelecaroussel">
             <article>
                 <h3>Dé perfecte smaakmatch</h3>
                 <p>Ontdek de lekkerste kazen die passen bij jouw smaakprofiel.</p>
-                <!-- <img> van de kaas -->
+                <img src="images/kaaswizard_match.png" alt="Drie soorten kaas, waarvan eentje wordt gekozen en de andere twee niet.">
             </article>
             <article>
                 <h3>Jouw persoonlijke smaakprofiel</h3>
                 <p>Krijg inzicht in jouw eigen smaakprofiel op basis van zes smaken.</p>
-                <!-- <img> van het diagram -->
+                <img src="images/kaaswizard_profiel.png" alt="Een illustratief cirkeldiagram.">
             </article>
             <article>
                 <h3>Verrijk je kaaskennis</h3>
-                <p>Leer kazen kennen die het beste passen bij jouw smaak relevantiescore.</p>
-                <!-- <img> van de diagrammetjes -->
+                <p>Leer kazen kennen die het beste passen bij jouw smaakrelevantiescore.</p>
+                <img src="images/kaaswizard_kennis.png" alt="Een overzicht van verschillende soorten kaas, beoordeeld op relevantiescore.">
             </article>
         </section>
-        <section>
-            <!-- <img> van de tafel met mensen -->
+        <div class="">
+            <!-- wat is dit???????? -->
+            <img src="images/icon_swipe.png" alt="Een icoontje van een handje, dat aangeeft dat je hier kan swipen.">
+            <p>Swipe voor meer</p>
+        </div>
+        <section class="profielinstructie">
+            <img src="images/kaasprofiel_banner2.png" alt="Een groep mensen die samen aan tafel geniet van een luxe kaasplank.">
             <h2>Hoe maak ik mijn smaakprofiel?</h2>
-            <article>
-                <!-- <img> van de klokje -->
+            <div>
+                <img src="images/icon_klokje.png" alt="Een icoontje van een klokje.">
                 <p>Jouw smaakprofiel in 3 minuten</p>
-            </article>
+            </div>
             <article>
-                <!-- rondje met het getal 1 erin -->
+                <h3>1</h3>
+                 <div>
                 <h4>Doe de smaaktest</h4>
                 <p>Beantwoord 13 vragen en maak gemakkelijk je profiel aan.</p>
+                </div>
             </article>
             <article>
-                <!-- rondje met het getal 2 erin -->
+                <h3>2</h3>
+                <div>
                 <h4>Creëer je eigen omgeving</h4>
                 <p>Met je eigen omgeving verrijk je jouw kaaskennis.</p>
+                </div>
             </article>
             <article>
-                <!-- rondje met het getal 3 erin -->
+                <h3>3</h3>
+                <div>
                 <h4>Bekijk jouw smaakprofiel</h4>
                 <p>In je account staat jouw persoonlijke smaakprofiel en bijpassende kazen.</p>
+                </div>
             </article>
             <article>
-                <!-- rondje met het getal 4 erin -->
+                <h3>4</h3>
+                <div>
                 <h4>Ontdek de wereld van kaas</h4>
                 <p>Verrijk je kennis en ontdek nieuwe kazen, recepten en inspiratie.</p>
+                </div>
             </article>
         </section>
-        <h2>Creating moments of happiness</h2>
-        <section>
-            <article>
-                <h4>Missie</h4>
-                <p>Uit onderzoek blijkt dat consumenten verdrinken in een 'gele kaaszee'. Met het platform willen wij geluksmomenten creëren, door mensen van kaas te laten genieten.</p>
-            </article>
-            <article>
-                <h4>Cheese technology</h4>
-                <p>Door de techniek van het platform krijg je een goed advies. Het begint met je profiel, maar hoe vaker je een review achterlaat hoe beter de suggesties worden.</p>
-            </article>
-            <article>
-                <h4>Jouw gids</h4>
-                <p>In een overweldigend kaaslandschap biedt dit platform jou een gids die je helpt de juiste keuze te maken op basis van jouw persoonlijke smaakprofiel.</p>
-            </article>                
+        <section class="creatingmoments">
+            <h2>Creating moments of happiness</h2>
+            <div>
+                <article>
+                    <h3>Missie</h3>
+                    <p>Uit onderzoek blijkt dat consumenten verdrinken in een 'gele kaaszee'. Met het platform willen wij geluksmomenten creëren, door mensen van kaas te laten genieten.</p>
+                </article>
+                <article>
+                    <h3>Cheese technology</h3>
+                    <p>Door de techniek van het platform krijg je een goed advies. Het begint met je profiel, maar hoe vaker je een review achterlaat hoe beter de suggesties worden.</p>
+                </article>
+                <article>
+                    <h3>Jouw gids</h3>
+                    <p>In een overweldigend kaaslandschap biedt dit platform jou een gids die je helpt de juiste keuze te maken op basis van jouw persoonlijke smaakprofiel.</p>
+                </article> 
+            </div>               
         </section>
-        <section>
+        <section class="mening">
             <h2>Jouw mening telt</h2>
             <p>Dit is een platform voor jou en jij bepaalt welke functies er worden toegevoegd. Dit zijn de nieuwe functionaliteiten die eraan komen:</p>
-            <article>
-                <!-- steeds veranderend plaatje met: -->
-                    <!-- img -->
-                    <!-- h3 -->
-                    <!-- p -->
-                    <!-- nummertjes -->
-            </article>
+            <div>
+                <article>
+                    <img src="images/mening_lijst.png" alt="Een borrelplank met verschillende kazen.">
+                    <div>
+                        <h3>Favorietenlijst</h3>
+                        <p>Stel jouw eigen favorietenlijst samen op basis van jouw smaakprofiel.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/mening_verkoop.png" alt="Een borrelplank met verschillende kazen.">
+                    <div>
+                        <h3>Verkooppunten</h3>
+                        <p>Bekijk waar je de kazen uit jouw smaakprofiel kunt kopen.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/mening_beoordelen.png" alt="Een borrelplank met verschillende kazen.">
+                    <div>
+                        <h3>Kazen beoordelen</h3>
+                        <p>Schrijf reviews over kazen en bekijk wat anderen van kazen vinden.</p>
+                    </div>
+                </article>
+            </div>     
         </section>            
     </main>
     <footer>
         <h2>Welkom in de smaakvolle wereld van kaas.</h2>
         <ul>
-            <a>Facebook</a>
-            <a>Instagram</a>
-            <a>Pinterest</a>
+            <a><img src="images/icon_facebook.png" alt="Het logo van Facebook."></a>
+            <a><img src="images/icon_insta.png" alt="Het logo van Instagram."></a>
+            <a><img src="images/icon_pinterest.png" alt="Het logo van Pinterest."></a>
         </ul>
         <p>© Copyright 2024 Velder</p>
         <section>
@@ -120,22 +156,23 @@
                 <a>Veelgestelde vragen</a>
                 <a>Contact</a>  
             </ul>
-            <ul>
+            <!-- VERDWIJNT OP MOBILE!
+                 <ul>
                 <h3>Segmenten</h3>
                 <a>Verse kaas</a>
                 <a>Goudse kaas</a>
                 <a>Boerenkaas</a>
                 <a>Geitenkaas</a>
                 <a>Hollandse kazen</a>
-            </ul>
+            </ul> -->
         </section>
         <section>
             <a>Cookie policy</a>
             <a>Privacy policy</a>
             <a>Cookie instellingen</a>
             <a>Algemene voorwaarden</a>          
-            <p>Website door:</p>
-            <a>MBU</a>
+            <!-- <p>Website door:</p>
+            <a>MBU</a> -->
         </section>
     </footer>
 </body>

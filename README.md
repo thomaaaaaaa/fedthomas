@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Kaas.nl - Home  
-  <img src="images/kaasnl-home.png" width="375px" alt="De homepagina van Kaas.nl">
+  <img src="readme-images/kaasnl-home.png" width="375px" alt="De homepagina van Kaas.nl">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Kaas.nl - Kaaswizard  
-  <img src="images/kaaswizard.png" width="375px" alt="De pagina waarop je zelf een Kaasprofiel kan aanmaken.">
+  <img src="readme-images/kaaswizard.png" width="375px" alt="De pagina waarop je zelf een Kaasprofiel kan aanmaken.">
  
 </details>
 
@@ -71,8 +71,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="images/kaasnl-home-analyse.png" width="375px" alt="Breakdown van de hele homepagina">
-  <img src="images/kaaswizard-analyse.png" width="375px" alt="Breakdown van de hele Kaaswizard">
+  <img src="readme-images/kaasnl-home-analyse.png" width="375px" alt="Breakdown van de hele homepagina">
+  <img src="readme-images/kaaswizard-analyse.png" width="375px" alt="Breakdown van de hele Kaaswizard">
 
 </details>
 
@@ -92,11 +92,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Tot nu toe ben ik hier met mijn site:
     1. Kale HTML met tekst
-      <img src="images/home-kale-html.png" width="375px" alt="De homepagina, met compleet kale HTML.">
-  <img src="images/kaaswizard-kale-html.png" width="375px" alt="De kaaswizard, met compleet kale HTML">
+      <img src="readme-images/home-kale-html.png" width="375px" alt="De homepagina, met compleet kale HTML.">
+  <img src="readme-images/kaaswizard-kale-html.png" width="375px" alt="De kaaswizard, met compleet kale HTML">
     2. HTML met een beetje typografie
-      <img src="images/home-kale-css.png" width="375px" alt="Breakdown van de hele homepagina">
-  <img src="images/kaaswizard-kale-css.png" width="375px" alt="Breakdown van de hele Kaaswizard">
+      <img src="readme-images/home-kale-css.png" width="375px" alt="Breakdown van de hele homepagina">
+  <img src="readme-images/kaaswizard-kale-css.png" width="375px" alt="Breakdown van de hele Kaaswizard">
 
   De volgende stappen zijn nu:
     3. HTML met typografie en afbeeldingen
@@ -263,10 +263,10 @@ Er is nog veel te doen, maar we hebben de tijd! ...hoop ik.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="images/ss_intro.png" width="375px" alt="De banner van de homepage.">
-  <img src="images/ss_smaaktest.png" width="375px" alt="Een blok met informatie.">
-  <img src="images/ss_smaakprofielbanner.png" width="375px" alt="De banner van de 2e pagina.">
-  <img src="images/ss_smaakprofiel.png" width="375px" alt="Een section over het samenstellen van een smaakprofiel.">
+  <img src="readme-images/ss_intro.png" width="375px" alt="De banner van de homepage.">
+  <img src="readme-images/ss_smaaktest.png" width="375px" alt="Een blok met informatie.">
+  <img src="readme-images/ss_smaakprofielbanner.png" width="375px" alt="De banner van de 2e pagina.">
+  <img src="readme-images/ss_smaakprofiel.png" width="375px" alt="Een section over het samenstellen van een smaakprofiel.">
   
   
   
@@ -275,7 +275,7 @@ Er is nog veel te doen, maar we hebben de tijd! ...hoop ik.
   ### Dit ging goed/Heb ik geleerd: 
   Wat goed ging is dat ik de site bijna 1 op 1 heb nagemaakt. Ik kon na een tijdje zelf geen onderscheid meer maken tussen de echte en de mijne: dat vond ik heel leuk, en daar ben ik trots op!
 
-  <img src="images/kaasvskaas.png" width="375px" alt="Twee bijna identieke pagina's!">
+  <img src="readme-images/kaasvskaas.png" width="375px" alt="Twee bijna identieke pagina's!">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -285,7 +285,7 @@ Er is nog veel te doen, maar we hebben de tijd! ...hoop ik.
 
   Maar, ik heb hoop dat het toch nog gaat lukken! Ik weet precies wat er moet gebeuren, en met genoeg tijd weet ik zeker dat ik alles goed kan maken bij de herkansing.
 
-<img src="images/todo.png" width="375px" alt="Mijn overzicht van alles dat ik nog ga aanpassen.">
+<img src="readme-images/todo.png" width="375px" alt="Mijn overzicht van alles dat ik nog ga aanpassen.">
 </details>
 
 
