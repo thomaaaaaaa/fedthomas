@@ -263,10 +263,10 @@ Er is nog veel te doen, maar we hebben de tijd! ...hoop ik.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="images/ss_intro" width="375px" alt="De banner van de homepage.">
-  <img src="images/ss_smaaktest" width="375px" alt="Een blok met informatie.">
-  <img src="images/ss_smaakprofielbanner" width="375px" alt="De banner van de 2e pagina.">
-  <img src="images/ss_smaakprofiel" width="375px" alt="Een section over het samenstellen van een smaakprofiel.">
+  <img src="images/ss_intro.png" width="375px" alt="De banner van de homepage.">
+  <img src="images/ss_smaaktest.png" width="375px" alt="Een blok met informatie.">
+  <img src="images/ss_smaakprofielbanner.png" width="375px" alt="De banner van de 2e pagina.">
+  <img src="images/ss_smaakprofiel.png" width="375px" alt="Een section over het samenstellen van een smaakprofiel.">
   
   
   
@@ -285,7 +285,7 @@ Er is nog veel te doen, maar we hebben de tijd! ...hoop ik.
 
   Maar, ik heb hoop dat het toch nog gaat lukken! Ik weet precies wat er moet gebeuren, en met genoeg tijd weet ik zeker dat ik alles goed kan maken bij de herkansing.
 
-    <img src="images/todo.png" width="375px" alt="Mijn overzicht van alles dat ik nog ga aanpassen.">
+<img src="images/todo.png" width="375px" alt="Mijn overzicht van alles dat ik nog ga aanpassen.">
 </details>
 
 
