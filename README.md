@@ -263,10 +263,10 @@ Er is nog veel te doen, maar we hebben de tijd! ...hoop ik.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/ss_intro" width="375px" alt="De banner van de homepage.">
-  <img src="readme-images/ss_smaaktest" width="375px" alt="Een blok met informatie.">
-  <img src="readme-images/ss_smaakprofielbanner" width="375px" alt="De banner van de 2e pagina.">
-  <img src="readme-images/ss_smaakprofiel" width="375px" alt="Een section over het samenstellen van een smaakprofiel.">
+  <img src="images/ss_intro" width="375px" alt="De banner van de homepage.">
+  <img src="images/ss_smaaktest" width="375px" alt="Een blok met informatie.">
+  <img src="images/ss_smaakprofielbanner" width="375px" alt="De banner van de 2e pagina.">
+  <img src="images/ss_smaakprofiel" width="375px" alt="Een section over het samenstellen van een smaakprofiel.">
   
   
   
@@ -275,7 +275,7 @@ Er is nog veel te doen, maar we hebben de tijd! ...hoop ik.
   ### Dit ging goed/Heb ik geleerd: 
   Wat goed ging is dat ik de site bijna 1 op 1 heb nagemaakt. Ik kon na een tijdje zelf geen onderscheid meer maken tussen de echte en de mijne: dat vond ik heel leuk, en daar ben ik trots op!
 
-  <img src="readme-images/kaasvskaas.png" width="375px" alt="Twee bijna identieke pagina's!">
+  <img src="images/kaasvskaas.png" width="375px" alt="Twee bijna identieke pagina's!">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -285,7 +285,7 @@ Er is nog veel te doen, maar we hebben de tijd! ...hoop ik.
 
   Maar, ik heb hoop dat het toch nog gaat lukken! Ik weet precies wat er moet gebeuren, en met genoeg tijd weet ik zeker dat ik alles goed kan maken bij de herkansing.
 
-    <img src="readme-images/todo.png" width="375px" alt="Mijn overzicht van alles dat ik nog ga aanpassen.">
+    <img src="images/todo.png" width="375px" alt="Mijn overzicht van alles dat ik nog ga aanpassen.">
 </details>
 
 
