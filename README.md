@@ -333,9 +333,20 @@ Hiermee kon ik goed verder werken. Aan de hand van een paar extra online bronnen
 ## Toegankelijkheidstest 2/2 (week 6+)
 <details>
   <summary>De tweede toegankelijkheidstest.</summary>
-## Afronden (week 6+)
+  Aan de hand van de WCAG-checklist doorliep ik mijn eigen site, om te kijken of er aan alle eisen wordt voldaan. Aan de hand hiervan kwam ik op een aantal bevindingen:
+  - Ik moet in plaats van een alt text toe te voegen en vervolgens "aria hidden" toe te passen, een Null Alt gebruiken. Dat paste ik aan. 
+  - Nog niet overal waar aria labels handig zijn, zijn aria labels toegepast!
+  - Sommige decoratieve afbeeldingen worden nog hardop voorgelezen, terwijl ze niets bijdragen voor de gebruiker.
+  - Dark en light mode zijn niet supported, maar dat is hier geen probleem omdat het anders een extra ding voor mijn surface level zou zijn geweesrt
+
+  Verder klopte alles wel ongeveer, en was mijn site na wat aanpassingen voor de test geslaagd!
+  
+
+ ## Afronden (week 6+)
 
 Nu ik zeker weet dat alles klopt en goed in elkaar zit, ben ik klaar voor het herkansingsgesprek! Het was nog flink wat werk, maar achteraf gezien ook wel weer leuk - het was een flinke puzzel, maar wel een puzzel die ik uiteindelijk op heb kunnen lossen.
+
+Zoals vorige keer zette ik alles netjes bij elkaar in een mapje, en uploadde ik het in DLO - deze keer met alles erop en eraan!
 
 
 ## Bronnenlijst
