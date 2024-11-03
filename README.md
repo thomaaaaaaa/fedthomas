@@ -289,11 +289,56 @@ Er is nog veel te doen, maar we hebben de tijd! ...hoop ik.
 </details>
 
 
+## Werken aan herkansing (week 6+)
+<details>
+  <summary>Het proces na het beoordelingsgesprek.</summary>
+	
+	Omdat ik mijn eerste poging niet had gehaald - wat compleet begrijpelijk was aangezien er nog veel ontbrak aan mijn site, werkte ik zelfstandig verder aan de verbeterde versie voor bij de herkansing. Aan de hand van mijn overzichtje van wat er allemaal nog moest ging ik aan de slag met het oplappen van mijn werk.
 
+ Het bleek nog lastig te zijn, aangezien de dingen die nog moesten gebeuren, ook de lastigste dingen bleken te zijn. Ik schoot niet heel erg op, maar gelukkig was er een 2e feedbackronde, waar ik goed kon gaan zitten met Danny en ik het plan nog een keer kon doorlopen. Voor het gesprek stelde ik een lijst met vragen op, die ik aanvulde aan de hand van de antwoorden die ik kreeg. Uiteindelijk had ik de volgende lijst:
+
+  ### Vragenlijst:
+Hoe zat het precies met de gradients op de afbeeldingen?
+-	“Geit in valley of fire” afbeelding in de positioneren-oefening 1 van week 3
+-	Je kan ook een background-image gradient kunnen geven aan de div waar de content in zit, en dan de div het juiste formaat geven
+
+In hoeveel detail moet de Aria? Is dat ingewikkeld nu of niet, kan ik beter iets anders doen?
+-	Gebruik ze nuttig! Bijv bij menu en iconen, er is geen grens, maar bedenk zelf waar het nuttig is voor de toegankelijkheid. 
+
+Welke DLO-opdracht of bron is het best voor het fixen van de rondschuifrescalability?
+-	Doe flexbox voor dingen die centreerd moet blijven, doe absolute voor dingen die op een plek moeten blijven
+-	Bij de knopjes: maak een 
+
+Code zo netjes genoeg?
+-	Yes!!!!!!
+
+Waren de knopjes bij de carousselletjes nou echt belangrijk of was dat een ander surface plane ding geweest? 
+-	De carrouselletjes zijn goed genoeg zo! Maar zorg dat bij de caroussel er genoeg ruimte aan de zijkant zit!
+DLO Hamburger voorbeeld werkt niet?
+-	Zet m op mobiel !!!!!!!!!
+-	Vorige keer: “overflow hidden op body in js (met nieuwe class) zodat je het menu kan scrollen! 2x nav?”
+-	Op de body van de originele pagina moet er over
+Hoe moet het met de hamburger qua aria? Die moet niet meteen voorgelezen worden toch? Kunnen we even een stappenplannetje opstellen daarvoor?
+1.	Maak het knopje klikbaar
+2.	Zorg dat het menu met -100vw opzij staat (met “transform -100%”), doe dat met een class “menuhidden”
+3.	Zorg dat het menu dan ook op hidden staat, zodat de screenreader het niet gaat voorlezen!
+4.	Er wordt op het knopje geklikt.
+5.	Transform -100% gaat naar Transform 0% (op het menu dat er al is), door de class te togglen met classlist.toggle menuhidden
+6.	Zet “overflow hidden” op de body (met een “no-scroll” class)
+7.	Als er op het kruisje wordt geklikt togglet hij nog eens, en gaat de class op de body weg om te zorgen dat er weer gescrolld kan worden
+
+
+Hiermee kon ik goed verder werken. Aan de hand van een paar extra online bronnen en de hulp van klasgenoten, schoot ik goed op en kwam ik dichter en dichter bij een uiteindelijke versie! Om te checken of ik alles goed had gedaan, doorliep ik ook nog een keer de accessibility-test.
+
+## Toegankelijkheidstest 2/2 (week 6+)
+<details>
+  <summary>De tweede toegankelijkheidstest.</summary>
+## Afronden (week 6+)
+
+Nu ik zeker weet dat alles klopt en goed in elkaar zit, ben ik klaar voor het herkansingsgesprek! Het was nog flink wat werk, maar achteraf gezien ook wel weer leuk - het was een flinke puzzel, maar wel een puzzel die ik uiteindelijk op heb kunnen lossen.
 
 
 ## Bronnenlijst
-
 <details open>
 1. https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties 
 2. https://developer.mozilla.org/en-US/docs/Web/CSS/Next-sibling_combinator
@@ -302,4 +347,13 @@ Er is nog veel te doen, maar we hebben de tijd! ...hoop ik.
 5. https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
 6. https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path 
 7. https://developer.mozilla.org/en-US/docs/Web/CSS/display
+8. https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+9. https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+10. https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+11. https://bennettfeely.com/clippy/
+12. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#example_a_mobile_navigation_menu
+13. Opdrachten uit DLO
+14. Mijn eigen werk van het vak Inleiding Programmeren
+opdracht op dlo
+eigen werk van Inleiding Programmeren
 </details>
