@@ -1,0 +1,1256 @@
+/*/////////////////////ALGEMEEN///////////////////*/
+
+:root{
+    --kaas-geel: #ffae00;
+    --kaas-lichtgeel: #ffd600;
+    --header-gradient: linear-gradient(90deg, #ff9900, #ffd100);
+    --footer-gradient: linear-gradient(145deg, #ffd100, #ff9900);
+    --smaaktest-gradient: linear-gradient(45deg, var(--kaas-geel), var(--kaas-lichtgeel));
+    --lichte-tekst: #ffffff;
+    --transparante-lijn: #ffffff52;
+    --donkere-tekst: #000000;
+    --lichtgrijs: #f7f7f7;
+    --beige-tekst: #ffe6af;
+    --donkergrijs: #818181;
+    --zwart-naar-transparant: linear-gradient(to top, rgba(0, 0, 0, 0.438) 10%, rgba(0, 0, 0, 0) 50%);
+    --zwart-naar-donker-naar-transparant: linear-gradient(to top, rgba(0, 0, 0, 0.719) 10%, rgba(0, 0, 0, 0) 60%);
+    --zwart-transparant-zwart: linear-gradient(to top, rgba(0, 0, 0, 0.797) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.747) 100%);
+    /* bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
+    /* brom: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient */
+    }
+  
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    background-color: var(--lichte-tekst)
+}
+
+/*/////////////////////TYPOGRAFIE///////////////////*/
+
+h1, h2, h3, h4, p, a, li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.3em;
+    line-height: 1.1em;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+}
+
+h2{
+    font-size: 1.7em;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin-bottom: 0%;
+    margin-left: 1.4em;
+    margin-right: 1.4em; 
+}
+
+h2 + p{
+    text-align: center;
+    font-size: 0.70em;
+    font-weight: 500;
+    line-height: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    /* bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Next-sibling_combinator */
+}
+
+h2 strong{
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 0.8em;
+    font-weight: 500;
+    line-height: 1.7em;
+}
+
+a {
+    font-size: 0.8em;
+    font-weight: 700;
+    line-height: 1.7em;
+}
+
+strong {
+    color: var(--kaas-geel);
+    font-weight: 540;
+}
+
+/*//////////////////////////////////////STRUCTUUR////////////////////////////////////*/
+
+main{
+    background-color: var(--lichte-tekst)
+}
+
+header{
+    background: var(--header-gradient);
+    color: var(--lichte-tekst);
+    border-bottom: 0.15em solid var(--lichte-tekst);
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    left: 0;
+    right: 0;
+}
+
+footer{
+    background: var(--footer-gradient);
+    color: var(--lichte-tekst);
+}
+/*/////////////////////////////////////HEADER///////////////////////////*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 10vh;
+    min-height: 8%;
+    max-height: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+nav>button, nav>a{
+    display: flex;
+    align-items: center;
+}
+
+nav a img, nav button img{
+    max-height: 3em;
+    margin-bottom: 0;
+}
+
+nav > button:nth-of-type(1){
+    margin-left: 0;
+}
+
+nav > a:nth-of-type(1){
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+}
+
+nav button{
+    background: none;
+    border: none;
+}
+
+
+nav > a:nth-of-type(2), nav button:nth-of-type(2){
+    margin-left: 1em;
+    align-self: center;
+    margin-left: auto;
+}
+
+nav a:nth-of-type(1) img{
+    max-height: 1.8em;
+}
+
+.wit{
+    background-color: white;
+}
+
+.geenScroll{
+    overflow:hidden;
+}
+
+/*//////////////////////FOOTER////////////////////*/
+
+footer{
+    padding-top: 5%;
+    margin-top: 8%;
+    text-align: center;
+}
+
+footer h2{
+    font-size: 1.5em;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 10%;
+    font-weight: 600;
+    margin-bottom: -2%;
+}
+
+footer h3{
+    display: none;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer>p{
+    color: var(--beige-tekst)
+}
+
+footer li a{
+    width: 10em;
+    margin-right: -10%;
+}
+
+footer li h4{
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 12%;
+}
+
+footer section{
+    display: flex;
+}
+
+footer section a{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+footer section ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer section:nth-of-type(1){
+    margin-left: 0%;
+    margin-right: 8%;
+}
+
+footer section:nth-of-type(1) a{
+    margin-bottom: -1%;
+}
+
+footer section:nth-of-type(2){
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+    justify-content: center;
+    padding-top: 13%;
+    padding-bottom: 10%;
+    max-width: 86%;
+    margin-left: 9%;
+}
+
+footer section:nth-of-type(2) a{
+    margin-right: 5%;
+    color: var(--beige-tekst);
+    font-size: 0.8em;
+}
+
+footer>ul:nth-of-type(1){
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+    margin-left: -8%;
+}
+
+footer ul li a img{
+    width: 2.5em;
+    background-color:#ffcd00;
+    border-radius: 2em;
+    padding: 0.4em;
+    margin-right: 0.5em;
+}
+
+footer>img:nth-of-type(1){
+    width: 100%;
+    margin-top: -5%;
+}
+
+/*/////////////////////////////////////////////////////INDEX///////////////////////////////////////////////////*/
+
+main a{
+    background-color: var(--lichte-tekst);
+    padding: 2%;
+    border-radius: 4em;
+    color: var(--kaas-geel);
+    text-decoration: none;
+    align-content: center;
+}
+
+main img{
+    max-width: 100%;
+}
+
+.gecentreerd{
+    display: flex;
+    justify-content: center;
+}
+
+/*/////////////////////KOPSTUKJE///////////////////*/
+.kopstukje{
+    background: var(--header-gradient);
+    color: var(--lichte-tekst);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    position: relative;
+    top: 3.9em;
+    padding-top: 9em;
+    max-height: 23em;
+    margin-bottom: 62%;
+}
+
+.kopstukje h1{
+    position: relative;
+    top: 1%;
+    margin-bottom: 3%;
+} 
+
+.index header{
+    background: var(--header-gradient);
+}
+
+.kopstukje a{
+    background-color: var(--lichte-tekst);
+    padding: 3%;
+    border-radius: 4em;
+    color: var(--kaas-geel);
+    text-decoration: none;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-content: center;
+    width: 50%;
+    margin-left: 20%;
+
+}
+
+.kopstukje>img{
+    position: relative;
+    right: 1em;
+    top: 2em;
+    border-top-right-radius: 8em;
+    max-width: 99%;
+    max-height: 18em;
+    object-fit: cover;
+
+    }
+
+.kopstukje p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    }
+
+.kopstukje>div:nth-of-type(1){
+    position: absolute;
+    right: 9%;
+    top: 65%;
+}
+
+.kopstukje>div:nth-of-type(1)>img:nth-of-type(1){
+    z-index: 90;
+    width: 4em;
+    height: 4em; 
+    background-color: var(--lichte-tekst);
+    border-radius: 5em;
+    padding: 9%;
+    position: absolute;
+    animation-name: draaien;
+    animation-duration: 9800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    }
+
+    @keyframes draaien {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
+    }
+/* bron: https://codepen.io/teerapuch/pen/vLJXeR */
+
+.kopstukje>div:nth-of-type(1)>img:nth-of-type(2){
+    z-index: 99;
+    width: 4em;
+    height: 4em; 
+    position: relative;
+    top: 0.5em;
+    left: 0.3em
+}
+
+/*/////////////////////KAASCATALOGUS///////////////////*/
+.kaascatalogus{
+    margin-top: 35%;
+    margin-bottom: 15%;
+    }
+
+.kaascatalogus a{
+    background: var(--header-gradient);
+    color: var(--lichte-tekst);
+    border-radius: 4.5%;
+    padding: 4%;
+    padding-left: 9%;
+    padding-right: 9%;
+    font-size: 0.7em;
+    }
+
+.kaascatalogus h3{
+    display: none
+    }
+
+.kaascatalogus section{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    margin-bottom: 10%;
+    scroll-snap-type: x mandatory;
+}
+
+.kaascatalogus article {
+    position: relative;
+    min-width: 60%;
+    height: 20em;
+    margin-left: 5%;
+    display: inline-block;
+    color: var(--lichte-tekst);
+    scroll-snap-align: center;
+    overflow: hidden; 
+}
+
+.kaascatalogus article::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--zwart-naar-transparant);
+    border-radius: 0.8em;
+    z-index: 1;
+}
+
+.kaascatalogus article img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.8em;
+    z-index: 0;
+}
+
+
+.kaascatalogus article a{
+    padding: 0%;
+    padding-left: 7%;
+    padding-right: 7%;
+    height: 3.2em;
+    border-radius: 0.7em;
+    margin-left: 30%;
+    margin-top: -10%;
+    z-index: 99;
+}
+
+.kaascatalogus article div{
+    z-index: 90;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: -17%;
+}
+
+.kaascatalogus article div div{
+    display: flex;
+    flex-direction: column;
+}
+
+.kaascatalogus article h4{
+    font-size: 0.8em;
+    font-weight: 700;
+}
+.kaascatalogus article p{
+    margin-top: -19%;
+    font-size: 0.67em;
+}
+
+/*/////////////////////RECEPTEN///////////////////*/
+
+.recepten{
+    padding-top: 9%;
+    padding-bottom: 20%;
+    background-color: var(--lichtgrijs);
+    margin-bottom: 16%;
+}
+
+.recepten h3{
+    display: none;
+}
+
+.recepten section{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto; 
+    margin-bottom: 13%;
+    scroll-snap-type: x mandatory;
+}
+
+.recepten article{
+    position: relative;
+    min-width: 80%;
+    height: 20em;
+    margin-left: 5%;
+    display: inline-block;
+    color: var(--lichte-tekst);
+    scroll-snap-align: center;
+}
+
+.recepten article img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.recepten a{
+    background: var(--lichtgrijs);
+    border: solid 1px var(--donkere-tekst);
+    color: var(--donkere-tekst);
+    border-radius: 1em;
+    padding: 4%;
+    padding-left: 9%;
+    padding-right: 9%;
+    font-size: 0.7em;
+}
+
+.recepten article::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--zwart-naar-donker-naar-transparant);
+    border-radius: 0.8em;
+    z-index: 1;
+}
+
+.recepten article div{
+    z-index: 90;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+    margin-left: 9%;
+    margin-top: -39%;
+}
+
+.recepten article:nth-of-type(even) div{
+    margin-top: -47%;
+}
+
+.recepten article div div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: -6%;
+}
+
+.recepten article:nth-of-type(even) div div{
+    margin-top: 4%;
+}
+.recepten article div div img{
+    margin: 5%;
+    max-height: 1em;
+    max-width: 1em;
+    z-index: 99;
+}
+
+.recepten article h4{
+    font-size: 0.93em;
+    font-weight: 500;
+    margin-bottom: -6%;
+    z-index: 99;
+}
+.recepten article p{
+    font-size: 0.67em;
+    z-index: 99;
+}
+
+/*/////////////////////MERKEN///////////////////*/
+
+.merken section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.merken section article{
+    position: relative;
+    height: 13em;
+    object-fit: cover;
+    margin-bottom: 3em;
+    color: var(--lichte-tekst);
+
+}
+
+.merken section article::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--zwart-naar-donker-naar-transparant);
+    border-radius: 0.8em;
+    z-index: 1;
+}
+
+
+.merken section div{
+    margin-top: -6.9em;
+    text-align: center;
+}
+
+.merken h3{
+    display: none;
+}
+
+.merken p{
+    z-index: 99;
+    position: relative;
+}
+
+.merken h4{
+    margin-top: -0.4em;
+    font-weight: 700;
+    line-height: 1em;
+    font-size: 1.5em;
+    z-index: 99;
+    position: relative;
+}
+
+.merken article:nth-of-type(2) div{
+    z-index: 99;
+    margin-top: -5.5em;
+    text-align: center;
+}
+
+.merken section article img{
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 23%;
+    object-fit: cover;  
+    /*bron: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow  */
+}
+
+.merken a{
+    background: var(--lichte-tekst);
+    border: solid 1px var(--donkere-tekst);
+    color: var(--donkere-tekst);
+    border-radius: 1em;
+    padding: 4%;
+    padding-left: 9%;
+    padding-right: 9%;
+    font-size: 0.7em;
+}
+
+/*/////////////////////SMAAKTEST///////////////////*/
+
+.smaaktest{
+    margin-top: 16%;
+    display: flex;
+    flex-direction: column;
+    background: var(--smaaktest-gradient);
+    width: 75%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    justify-content: center;
+    color: var(--lichte-tekst);;
+    border-radius: 1.1em;
+}
+
+.smaaktest a{
+    text-align: center;
+    font-size: 1em;
+    width: 70%;
+    padding: 1em;
+    line-height: 1.4em
+}
+
+.smaaktest p{
+    font-size: 0.8em;
+    line-height: 1.8em
+}
+
+.smaaktest h2{
+    font-size: 2em;
+    line-height: 1.1em;
+}
+
+.smaaktest img{
+    width: 87%;
+    position: relative;
+    margin-left: 6%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/*///////////////////////////////////////////KAASPROFIEL///////////////////////////////////////////////*/
+
+.profielheader{
+    background: none;
+    border-bottom: 1px solid var(--transparante-lijn);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profielheader img{
+    margin-left: -25%;
+    min-height: 2.5em;
+}
+
+.profiel h2{
+    font-weight: 600;
+    font-size: 2.0em;
+    line-height: 1.2em;
+}
+
+.smaakbanner{
+    background-image: 
+        var(--zwart-naar-donker-naar-transparant),
+        url(../images/kaasprofiel_banner.png);
+    background-size: cover;
+    background-position-x: -13em;
+    margin-top: -15%;
+    padding-bottom: 13%;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.smaakbanner h1{
+    color: var(--lichte-tekst);
+    padding-top: 60%;
+    font-size: 3em;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 8%;
+    font-weight: 600;
+}
+
+.smaakbanner a{
+    background: var(--header-gradient);
+    color: rgb(255, 255, 255);
+    border-radius: 20em;
+    padding: 5%;
+    padding-left: 19%;
+    padding-right: 19%;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.smaakbanner p{
+    color: var(--lichte-tekst);
+    opacity: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    font-size: 0.9em;
+    padding-bottom: 5%;
+}
+
+.kaasbeleving>p:nth-of-type(1){
+    color: var(--donkergrijs);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 0.74em;
+}
+
+/*/////////////////////GELE CARROUSSEL///////////////////*/
+
+.gelecaroussel{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 5%;
+    padding: 20px;
+    margin-top: 10%;
+    margin-left: 1em;
+}
+
+.gelecaroussel article{
+    display: flex;
+    flex-direction: column;
+    background: var(--footer-gradient);
+    color: var(--lichte-tekst);;
+    justify-content: center;
+    text-align: center;
+    min-width: 12em;
+    padding: 8%;
+    padding-left: 13%;
+    padding-right: 13%;  
+    border-radius: 1.2em;
+    scroll-snap-align: center; 
+}
+
+.gelecaroussel h3{
+    display:  none;
+}
+
+.gelecaroussel h4{
+    font-size: 1.6em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.gelecaroussel img{
+    margin-top: 5%;
+}
+
+.gelecaroussel p{
+    margin-top: -8%;
+    width: 120%;
+    margin-left: -10%;
+    line-height: 2em;
+}
+
+/*/////////////////////HANDJE///////////////////*/
+
+.profiel>div:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: var(--donkergrijs);
+    margin-top: 10%;
+}
+
+.profiel>div:nth-of-type(1)>img{
+    width: 1.2em;
+    height: 1.2em;
+    margin-top: 1em; 
+    margin-right: 4%;
+}
+
+/*/////////////////////INSTRUCTIE PROFIEL///////////////////*/
+
+.profielinstructie{
+    margin-top: 25%;
+    background-color: var(--lichtgrijs);
+    padding-bottom: 19%;
+}
+
+.profielinstructie p{
+    color: var(--donkergrijs)
+}
+
+.profielinstructie img{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 0.7em;
+    object-fit: cover;
+    height: 14em;
+}
+
+.profielinstructie article{
+    display: flex;
+    align-items: center; 
+    width: 90%;
+    margin-left: 5%;
+    background-color: var(--lichte-tekst);;
+    margin-bottom: 5%;    
+}
+
+.profielinstructie h3{
+    background-color: var(--kaas-geel);
+    color: var(--lichte-tekst);;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-radius: 50%;
+    min-width: 2em;
+    min-height: 2em;
+    display: inline-block; 
+    text-align: center;
+    line-height: 2em; 
+    padding: 0;
+    margin-left: 5%;
+    /* bron: https://developer.mozilla.org/en-US/docs/Web/CSS/display */
+}
+
+.profielinstructie article div{
+    display: flex;
+    margin-left: -4%;
+    flex-direction: column;
+    padding: 9%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.profielinstructie article div p{
+margin-top: 7%;
+}
+
+.profielinstructie article h4{
+    font-size: 0.86em;
+    font-weight: 700;
+    margin-bottom: -7%;
+}
+
+.profielinstructie h2{
+    text-align: left;
+    margin-left: 7%;
+}
+
+.profielinstructie>div{
+    display: flex;
+    margin-left: 1.3em;
+}
+
+.profielinstructie>div>p{
+    margin-left: 3%; 
+    margin-top: 3%; 
+}
+
+.profielinstructie>div>img{
+    width: 0.9em;
+    height: 0.9em;
+    margin-top: 4.4%; 
+    }
+
+/*/////////////////////CREATING MOMENTS///////////////////*/
+
+.creatingmoments{
+    text-align: center;
+    width: 85%;
+    margin-left: 7%;
+    padding-bottom: 20%;
+}
+.creatingmoments h3{
+    font-size: 1em;
+}
+
+.creatingmoments p{
+    color: var(--donkergrijs)
+}
+
+.creatingmoments div{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 5%;
+    padding: 20px;
+}
+
+.creatingmoments article{
+    min-width: 18em;
+    margin-left: -8%;
+    scroll-snap-align: center;
+}
+
+.creatingmoments article h3{
+    margin-bottom: -2%;
+}
+
+/*/////////////////////MENINGEN DELEN///////////////////*/
+
+.mening h2{
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+.mening p{
+    color: var(--donkergrijs);
+    font-size: 0.8em;
+}
+
+.mening>div{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-top: -29%;    
+    margin-left: 3%;
+    height: 40em;
+    margin-right: 0.3em;
+}
+
+.mening article {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color: var(--lichte-tekst);
+    justify-content: center;
+    text-align: center;
+    min-width: 95%;
+    border-radius: 1.2em;
+    scroll-snap-align: start;
+    margin-left: 8%;
+    height: 25em;
+    overflow: hidden;
+    margin-top: 30%;
+}
+
+.mening article::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--zwart-transparant-zwart);
+    border-radius: 1.2em;
+    z-index: 1;
+}
+
+.mening article:nth-of-type(3){
+    margin-right: 5%; 
+}
+.mening div img{
+    height: 33em;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.mening article div{
+    margin-top: -60%;
+}
+
+.mening article h3{
+    font-weight: 700;
+    z-index: 99;
+    position: relative;
+}
+
+.mening article p{
+    position: relative;
+    color: var(--lichte-tekst);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -5%;
+    z-index: 99;
+}
+
+/*//////////////////////////////////////////////HAMBURGERMENU/////////////////////////////////////////*/
+
+.hamburger{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    transform: translateX(-100vw);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    display: none;
+}
+
+.hamburger.visible{
+    display: block;
+}
+
+.hamburger.animeren{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.hamburger nav{
+    list-style: none;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    min-height: 45vh;
+}
+
+.hamburger ul{
+    list-style: none;
+}
+
+.hamburger nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.hamburger button{
+    background: none;
+    border: none;
+    margin-left: 86%;
+    margin-top: 4%;
+    min-height: 10%;
+}
+
+.hamburger button img{
+    background: none;
+}
+
+.hamburger img{
+    background: var(--footer-gradient);
+    max-width: 1.6em;
+    padding: 0.2em;
+    border-radius: 0.25em;
+    margin-right: 0.3em;
+}
+
+.hamburger > div:nth-of-type(1){
+    background: var(--header-gradient);
+    color: var(--lichte-tekst);
+    font-size: 1.7em;
+    margin-left: -6%;
+    font-weight: 500;
+    padding-top: 0%;
+    padding-bottom: 24%;
+    max-height: 60%;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    /* bron: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path */
+}
+
+.hamburger>div>a{
+    background-color: var(--lichte-tekst);
+    color: var(--kaas-geel);
+    font-size: 0.75em;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 2em;
+    margin-left: 10%;
+    margin-bottom: -30%
+}
+
+.hamburger a{
+    font-weight: 600;
+    font-size: 1.0em;
+}
+
+.hamburger>div:nth-of-type(2)>p{
+    color: var(--donkergrijs);
+    margin-left: 3.6em;
+    font-size: 0.7em;
+}
+
+.hamburger>div:nth-of-type(2)>ul:nth-of-type(1)>li:nth-of-type(2){
+    color: var(--kaas-geel);
+    font-size: 0.6em;
+    margin-top: -2.9em;
+    margin-left: 11.3em;
+    display: flex;
+}
+
+.hamburger>div:nth-of-type(2)>ul:nth-of-type(1)>li:nth-of-type(3){
+    margin-top: 0.9em;
+}
+
+.hamburger>div:nth-of-type(2)>ul:nth-of-type(1){
+    margin-top: -2%;
+    font-weight: 800;
+    background: none;
+}
+
+.hamburger>div:nth-of-type(1)>img{
+    max-width: 1em;
+    margin-left: 85%;
+    margin-bottom: -1em;
+    background: none;
+    opacity: 80%;
+}
+
+.hamburger>div:nth-of-type(1) li a{
+    background: none;
+    background-color: #00000000;
+    color: var(--lichte-tekst);
+}
+
+.hamburger>div:nth-of-type(2)>ul:nth-of-type(2){
+    display: flex;
+    gap: 0.6em;
+}
+
+/*//////////////////////////////////////////////ZOEKMENU/////////////////////////////////////////*/
+
+.zoeken{
+    background-color: var(--lichtgrijs);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    display: none;
+}
+
+.zoeken.visible{
+    display: block;
+}
+
+.zoeken.animate{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.zoekenhidden{
+    display: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateY(-100vw);
+}
+
+.zoeken div:nth-of-type(1){
+    background-image: var(--header-gradient);
+    clip-path: ellipse(90% 30% at 50% 5%);
+    padding-top: 5%;
+    z-index: 0;
+    position: relative;
+}
+
+.zoeken button{
+    background: none;
+    border: none;
+    margin-left: 85%;
+    margin-top: 2%;
+    margin-bottom: 100%;
+}
+
+.zoeken button img{
+    max-height: 2em;
+}
+
+.zoeken h2{
+    margin-top: -100%;
+    z-index: 1;
+    position: relative;
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2em;
+    font-size: 1.4em;
+}
+
+.zoeken div:nth-of-type(2){
+    z-index: 3;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin-left: 4%;
+    background-color: var(--lichte-tekst);
+    border: 0.1em solid var(--donkergrijs);
+    border-radius: 0.6em;
+    margin-top: 3%;
+    color: var(--donkergrijs);
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.zoeken p{
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.zoeken div:nth-of-type(2) img{
+    filter: invert(50%);
+    max-height: 3em;
+    margin-top: 25%;
+}
