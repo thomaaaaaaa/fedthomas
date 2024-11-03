@@ -362,9 +362,8 @@ Zoals vorige keer zette ik alles netjes bij elkaar in een mapje, en uploadde ik 
 9. https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 10. https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 11. https://bennettfeely.com/clippy/
-12. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#example_a_mobile_navigation_menu
-13. Opdrachten uit DLO
-14. Mijn eigen werk van het vak Inleiding Programmeren
-opdracht op dlo
-eigen werk van Inleiding Programmeren
+12. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#example_a_mobile_navigation_men
+13. https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
+14. Opdrachten uit DLO
+15. Mijn eigen werk van het vak Inleiding Programmeren
 </details>
