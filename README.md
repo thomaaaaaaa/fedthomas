@@ -94,8 +94,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     1. Kale HTML met tekst
       <img src="readme-images/home-kale-html.png" width="375px" alt="De homepagina, met compleet kale HTML.">
   <img src="readme-images/kaaswizard-kale-html.png" width="375px" alt="De kaaswizard, met compleet kale HTML">
-    2. HTML met een beetje typografie
-      <img src="readme-images/home-kale-css.png" width="375px" alt="Breakdown van de hele homepagina">
+    2. Vervolgens voegde ik een beginnetje van de typografie toe aan mijn HTML.
   <img src="readme-images/kaaswizard-kale-css.png" width="375px" alt="Breakdown van de hele Kaaswizard">
 
   De volgende stappen zijn nu:
